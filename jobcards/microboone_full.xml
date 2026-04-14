@@ -1,0 +1,21 @@
+<nuisance>
+
+  <config GENIETune="G18_10a_02_11a" />
+  <config error_throws="100" />
+  <config MAXITERATIONS="1000" />
+  <config TOLERANCE="0.1" />
+<!--  <config SignalReconfigures="true" /> -->
+<!--  <config MAXEVENTS="1000" />  -->
+
+  <!-- <parameter type="genie_parameter" name="MaCCQE" nominal="7.55" low="-50" high="50" step="4.16" state="FREE" /> -->
+  <!-- <parameter type="genie_parameter" name="NormCCMEC" nominal="0.52" low="-2" high="50" step="1.4" state="FREE" /> -->
+  <!-- <parameter type="genie_parameter" name="XSecShape_CCMEC" nominal="0.22" low="0" high="1" step="0.78" state="FREE" /> -->
+  <!-- <parameter type="genie_parameter" name="RPA_CCQE" nominal="0.40" low="0" high="1" step="0.4" state="FREE" /> -->
+  <parameter type="genie_parameter" name="MaCCQE" nominal="4.9778" low="-5" high="10" step="1" state="FREE" />
+  <parameter type="genie_parameter" name="NormCCMEC" nominal="1.31189" low="-2" high="10" step="0.5" state="FREE" />
+  <parameter type="genie_parameter" name="XSecShape_CCMEC" nominal="1.0" low="0" high="1" step="0.1" state="FIX" />
+  <parameter type="genie_parameter" name="RPA_CCQE" nominal="0.151" low="0" high="1" step="0.1" state="FIX" />
+
+  <sample name="MicroBooNE_CC1MuNp_XSec_1DPmu_nu" input="GENIE:samples/14_1000180400_CC_v3_4_0_G18_10a_02_11a.gprep.root" type="FULL"/>
+
+</nuisance>

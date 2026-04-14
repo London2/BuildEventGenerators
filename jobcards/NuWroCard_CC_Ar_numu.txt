@@ -10,7 +10,7 @@ number_of_test_events = 1000000
 
 # The number of equally weighted events to be saved:
 
-number_of_events      = 100
+number_of_events      = 1000
 
 # Control the random seed persistence:
 random_seed  = 0     // 0 - use time(NULL) as a seed for random number generator
@@ -171,8 +171,8 @@ sf_transparency_table_idx = 1 # Transparency
 sf_transparency_scale = 1  # Scale transparency
 #                            [0.97,1.03] for table_idx = 1
 #                            [0.7,1.3] for table_idx =2
-sf_nuclearRecoil = 1      # Nuclear recoil
-sf_CoulombDistortion = 1  # Couloumb distortion
+#sf_nuclearRecoil = 1      # Nuclear recoil
+#sf_CoulombDistortion = 1  # Couloumb distortion
 sf_src = 1                # Short range NN correlations
 sf_pb = 1                 # Pauli blocking method used for SF:
 #                           1- average Fermi momentum, 2- local Fermi momentum

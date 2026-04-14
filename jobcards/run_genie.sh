@@ -1,9 +1,8 @@
 #!/bin/bash
 
-export events="100"
-export version="v3_6_2"
-
-export tune="AR23_20i_00_000"
+export events="1000"
+export version="v3_4_2"
+export tune="G18_10a_02_11a"
 
 export probe="14"
 export target="1000180400"
@@ -11,8 +10,7 @@ export interaction="CC"
 export minE="0."
 export maxE="10."
 
-export fluxfile="./sbnd_flux.root";export fluxhisto="flux_sbnd_numu"
-#export fluxfile="./MCC9_FluxHist_volTPCActive.root";export fluxhisto="hEnumu_cv"
+export fluxfile="./uboone_flux.root";export fluxhisto="hEnumu_cv"
 
 export outdir="./samples"
 
