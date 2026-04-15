@@ -12,7 +12,7 @@ if [[ ${USER} == "apapadop" ]]; then
     git fetch --tags
     git checkout tags/6.1.4
 else
-    cp -rf /exp/uboone/app/users/lcoopert/BuildEventGenerators/neut ./
+    cp -rf /exp/uboone/app/users/lcoopert/event_generators_tutorial/BuildEventGenerators/neut ./
     rm -rf neut/build
     cd neut
 fi
