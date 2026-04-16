@@ -1,0 +1,63 @@
+
+<nuisance>
+<config GENIETune="G18_10a_02_11a" />
+<config UseSVDInverse="1"/>
+<config savenominal="1"/>
+<config error_throws="20" />
+
+<sample name="MicroBooNE_CC1MuNp_XSec_1DPmu_nu" input="GENIE:samples/14_1000180400_CC_v3_4_2_G18_10a_02_11a.gprep.root" type="FULL"/>
+<parameter type="genie_parameter" name="AGKYpT1pi" nominal="-0.256264" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="AGKYxF1pi" nominal="0.594509" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="AhtBY" nominal="-0.446889" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="AxFFCCQEshape" nominal="0.366725" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="BhtBY" nominal="0.458639" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="CV1uBY" nominal="0.226940" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="CV2uBY" nominal="1.021004" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="CoulombCCQE" nominal="0.455806" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="DecayAngMEC" nominal="-0.502885" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="EtaNCEL" nominal="0.357169" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="FrAbs_N" nominal="0.076167" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="FrAbs_pi" nominal="-0.690167" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="FrCEx_N" nominal="0.368699" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="FrCEx_pi" nominal="-0.834773" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="FrInel_N" nominal="-0.634672" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="FrInel_pi" nominal="-1.136329" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="FracDelta_CCMEC" nominal="-0.853978" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="FracPN_CCMEC" nominal="-0.654537" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="MFP_N" nominal="-1.023211" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="MFP_pi" nominal="0.093316" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="MaCCRES" nominal="4.894586" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="MaNCEL" nominal="0.266719" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="MaNCRES" nominal="-0.077067" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="MvCCRES" nominal="0.763503" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="MvNCRES" nominal="0.484764" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvbarnCC1pi" nominal="-0.101239" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvbarnCC2pi" nominal="0.105562" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvbarnNC1pi" nominal="-0.038537" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvbarnNC2pi" nominal="-0.014689" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvbarpCC1pi" nominal="0.212903" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvbarpCC2pi" nominal="-0.363414" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvbarpNC1pi" nominal="-0.090644" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvbarpNC2pi" nominal="-0.187661" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvnCC1pi" nominal="0.240616" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvnCC2pi" nominal="-1.188550" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvnNC1pi" nominal="0.526309" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvnNC2pi" nominal="-0.023104" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvpCC1pi" nominal="0.066507" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvpCC2pi" nominal="-0.617959" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvpNC1pi" nominal="-0.003690" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NonRESBGvpNC2pi" nominal="0.108294" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NormCCCOH" nominal="-0.123754" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NormNCCOH" nominal="0.531207" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NormNCMEC" nominal="2.264317" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="RDecBR1eta" nominal="0.159312" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="RDecBR1gamma" nominal="-0.100567" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="ThetaDelta2NRad" nominal="0.189281" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="Theta_Delta2Npi" nominal="0.310083" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="VecFFCCQEshape" nominal="0.905369" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="MaCCQE" nominal="14.034491" low="-20" high="20" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="RPA_CCQE" nominal="0.864963" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="NormCCMEC" nominal="1.354590" low="-5" high="5" step="0.1" state="FREE"/>
+<parameter type="genie_parameter" name="XSecShape_CCMEC" nominal="0.050311" low="-5" high="5" step="0.1" state="FREE"/>
+
+</nuisance>
